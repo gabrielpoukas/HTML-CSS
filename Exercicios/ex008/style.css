@@ -1,0 +1,109 @@
+body {
+
+    font-family: fantasy;
+    background-color: rgb(252, 206, 248);
+    margin: 0px;
+
+}
+
+nav{
+
+    background-color: rgb(184, 241, 243);
+    padding: 3px;
+
+}
+nav > a{
+
+
+    text-decoration: none;
+    color: rgb(143, 58, 212);
+    font-weight: bold;
+    margin-right: 50px;
+    padding: 10px;
+}
+nav>a:hover{
+
+ text-decoration: underline;   
+}
+
+nav> img{
+
+margin: 395px;
+}
+
+header {
+
+width: 417px;
+background-color: rgb(209, 238, 250);
+padding: 169px;
+margin: 10px;
+}
+
+header>p{
+
+font-weight: bold;
+
+}
+
+header>h1{
+
+    text-align:start;
+    font-size: 50px;
+    
+}
+
+article {
+
+background-color: rgb(247, 228, 247);
+padding: 1px;
+
+
+}
+
+article>aside  {
+
+background-color: rgb(167, 223, 240);
+text-align: center;
+padding-bottom: 20px;
+
+
+}
+
+article>aside>ol{
+
+
+text-align:left
+
+}
+
+main{
+
+background-color: rgb(178, 235, 243);
+padding: 5px;
+margin: 5px;
+
+}
+footer {
+
+background-color: rgb(169, 229, 240);
+color: white;
+text-align: center;
+padding: 1px;
+margin: 0px;
+
+
+}
+
+aside{
+
+
+text-align: center;
+padding: 1px;
+background-color: rgb(171, 232, 243);
+}
+
+aside>p{
+
+text-align: left;
+
+}
