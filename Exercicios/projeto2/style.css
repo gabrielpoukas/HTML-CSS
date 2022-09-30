@@ -110,3 +110,26 @@ section.conteudo.paralax1{
  -webkit-background-size:cover;
  -moz-background-size:cover;
 }
+
+section.conteudo.paralax2{
+
+background-image: url('imagens/kimetsu.jpg');
+
+}
+
+
+section.conteudo.paralax3{
+
+    background-image: url('imagens/SNK.png');
+    
+    }
+
+    section.conteudo h1{
+
+        color: white;
+        text-align: center;
+        font-size: 80px;
+        z-index: 50;
+        text-transform: uppercase;
+
+    }
