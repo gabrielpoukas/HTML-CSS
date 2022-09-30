@@ -117,13 +117,23 @@ section.conteudo.paralax1{
 section.conteudo.paralax2{
 
 background-image: url('imagens/kimetsu.jpg');
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: cover;
+-webkit-background-size:cover;
+-moz-background-size:cover;
 
 }
 
 
 section.conteudo.paralax3{
 
-    background-image: url('imagens/SNK.png');
+background-image: url('imagens/SNK.png');
+background-repeat: no-repeat;
+ background-attachment: fixed;
+ background-size: cover;
+ -webkit-background-size:cover;
+ -moz-background-size:cover;
     
     }
 
