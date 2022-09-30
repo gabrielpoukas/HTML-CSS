@@ -29,7 +29,7 @@ html,body {
 header {
 
 
-background-color:  black;
+background-image: linear-gradient(to bottom,#676BDB,#4A4D9E);
 color: white;
 text-align: center;
 
@@ -72,22 +72,51 @@ padding-left: 30px;
 font-family: var(--fonte2);
 font-size: 2.5vw;
 
+}
+
+section#img01{
+
+background-image: url('imagens/3.jpg');
+background-repeat: no-repeat;
+background-position: center;
+background-size:cover;
+}
+
+section#img02{
+
+height: 98vh;
+background-image: url('imagens/2.jpg');
+background-repeat: no-repeat;
+background-position:  center center;
+background-size: cover;
+
+}
+
+
+section > p{
+
+padding-bottom: 2em;
 
 }
 
 
 section.image{
 
-background-color: rgba(0, 0, 0, 0.555);
-color: white;
+    background-color: rgba(0, 0, 0, 0.555);
+    color: white;
+    box-shadow: inset 6px,6px,13px,0px rgba(0, 0, 0, 0.486);
+    background-attachment: fixed;
+    
+    }
+    
 
-}
 
 section.image>p {
 
 display: inline-block;
 padding: 6px;
-background-color: rgb(3, 3, 3);
+background-color: rgba(250, 237, 237, 0.507);
+text-shadow: 2px 2px 0px black;
 
 }
 
@@ -95,8 +124,9 @@ background-color: rgb(3, 3, 3);
 
 section.normal {
 
-background-color: rgb(167, 92, 236);
-color: white;
+
+background-image: linear-gradient(to left, #9883E6,#453D62);
+    color: white;
 
 
 }
