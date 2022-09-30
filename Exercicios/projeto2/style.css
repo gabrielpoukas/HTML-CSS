@@ -12,7 +12,8 @@
 h1,h2 {
 
     font-weight: bold;
-    color: rgb(10, 8, 8);
+    color: rgb(102, 15, 32);
+    
 
 }
 
@@ -51,6 +52,7 @@ padding:  0 23px;
 section.conteudo p{
 
 margin-bottom: 40px;
+font-size: 18px;
 
 }
 
@@ -64,13 +66,14 @@ margin-bottom: 0;
 section.conteudo h2{
 
 margin-bottom: 40px;
-font-size: 25px;
+font-size: 30px;
+font-weight: bold;
 }
 
 section.conteudo.module{
 
 padding: 40px 0;
-background-color: #DBD553;
+background-image: linear-gradient(to right,#E39184,#eedcd9);
 }
 
 section.conteudo.paralax{
@@ -124,6 +127,9 @@ section.conteudo.paralax3{
     
     }
 
+
+   
+
     section.conteudo h1{
 
         color: white;
@@ -132,4 +138,29 @@ section.conteudo.paralax3{
         z-index: 50;
         text-transform: uppercase;
 
+
     }
+
+
+    footer{
+
+        
+        background-color: black;
+        color: white;
+        text-align: center;
+        padding: 10px;
+        
+        }
+
+        a{
+
+            color: rgb(143, 29, 114);
+            text-decoration: none;
+            font-weight: bolder;
+            }
+            
+            a:hover{
+            
+            text-decoration: underline;
+            
+            }
