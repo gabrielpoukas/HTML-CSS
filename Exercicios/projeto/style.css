@@ -1,10 +1,37 @@
-@charset "URF-8";
+@charset "UTF-8";
+
+*{
+
+margin: 0px;
+padding: 0px;
+}
+
+html,body {
+
+    min-height: 100%;
+    background-color: turquoise;
+
+}
+
+header {
 
 
-body {
+background-color:  black;
+color: white;
+text-align: center;
 
-background-image: linear-gradient(to right, yellow, rgb(241, 186, 141));
+}
 
+header>h1{
+
+padding: 50px;
+font-variant: small-caps;
+
+}
+
+header>p {
+
+padding-bottom: 50px;
 
 
 }
