@@ -18,13 +18,14 @@ h1,h2 {
 
     font-weight: bold;
     color: rgb(102, 15, 32);
+    font-size: 2em;
     
 }
 
 @media(min-width:450px){
 h1,h2{
 
-    font-size: 30px;
+    font-size: 2em;
 
 
 }
@@ -77,14 +78,14 @@ padding:  0 23px;
 section.conteudo p{
 
 margin-bottom: 40px;
-font-size: 20px;
+font-size: 2em;
 
 }
 
 @media(min-width:450px) {
 section.conteudo p {
 
-font-size: 20px;
+font-size: 1.5em;
 }
 
 }
@@ -100,7 +101,7 @@ margin-bottom: 0;
 section.conteudo h2{
 
 margin-bottom: 40px;
-font-size: 30px;
+font-size: 2em;
 font-weight: bold;
 
 
@@ -186,13 +187,19 @@ background-repeat: no-repeat;
 
         color: white;
         text-align: center;
-        font-size: 90px;
+        font-size: 5em;
         z-index: 50;
         text-transform: uppercase;
+ }
 
+
+ @media(min-width:450px) {
+    section.conteudo h1 {
+
+        font-size:  5em;
 
     }
-
+}
 
     footer{
 
