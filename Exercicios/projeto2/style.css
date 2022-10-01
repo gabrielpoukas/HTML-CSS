@@ -19,13 +19,14 @@ h1,h2 {
 
 html,body{
 
-min-height: 100vh;
 margin: 0;
 padding: 0;
 color: black;
 font-family:var(--fonte1);
 word-wrap: break-word;
 overflow-wrap: break-word;
+
+
 }
 
 .normal{
@@ -39,6 +40,9 @@ main{
 
     display: block;
     background-color: white;
+    min-width: 320px;
+ max-width: 800px;
+}
 }
 
 .content1{
