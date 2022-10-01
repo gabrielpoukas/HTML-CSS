@@ -98,13 +98,7 @@ font-size: 2em;
 
 }
 
-@media(min-width:450px) {
-section.conteudo p {
 
-font-size: 1.5em;
-}
-
-}
 
 section.conteudo:last-child{
 
@@ -209,13 +203,7 @@ background-repeat: no-repeat;
  }
 
 
- @media(min-width:450px) {
-    section.conteudo h1 {
 
-        font-size:  5em;
-
-    }
-}
 
     footer{
 
@@ -238,4 +226,16 @@ background-repeat: no-repeat;
             
             text-decoration: underline;
             
+            }
+
+            @media screen and (max-width:600px){
+
+                main{
+
+
+                    text-align: center;
+                    width: 100%;
+                }
+
+    
             }
