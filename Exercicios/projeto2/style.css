@@ -69,8 +69,13 @@ section.conteudo p{
 margin-bottom: 40px;
 font-size: 20px;
 
+}
 
+@media(min-width:425px) {
+section.conteudo p {
 
+font-size: 20px;
+}
 
 }
 
