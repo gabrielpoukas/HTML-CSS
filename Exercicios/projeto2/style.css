@@ -19,6 +19,16 @@ h1,h2 {
     font-weight: bold;
     color: rgb(102, 15, 32);
     
+}
+
+@media(min-width:450px){
+h1,h2{
+
+    font-size: 30px;
+
+
+}
+
 
 }
 
@@ -71,7 +81,7 @@ font-size: 20px;
 
 }
 
-@media(min-width:425px) {
+@media(min-width:450px) {
 section.conteudo p {
 
 font-size: 20px;
