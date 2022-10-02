@@ -228,14 +228,4 @@ background-repeat: no-repeat;
             
             }
 
-            @media screen and (max-width:600px){
-
-                main{
-
-
-                    text-align: center;
-                    width: 100%;
-                }
-
-    
-            }
+          
