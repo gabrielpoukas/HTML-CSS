@@ -26,6 +26,7 @@ h1,h2 {
     font-weight: bold;
     color: rgb(102, 15, 32);
     font-size: 2em;
+    margin-right: 30px
     
 }
 
@@ -67,18 +68,11 @@ main{
    
     display: block;
     background-color: white;
+    min-width: 450px;
+    max-width: 2000px;
     overflow-x: hidden;
     
     
-}
-
-@media(min-width:450px) {
-main{
-
-font-size: 1.1em;
-
-}
-
 }
 
 
@@ -93,8 +87,10 @@ padding:  0 23px;
 
 section.conteudo p{
 
-margin-bottom: 40px;
-font-size: 2em;
+margin-bottom: 30px;
+margin-right: 30px;
+font-size: 0.9em;
+
 
 }
 
@@ -191,13 +187,24 @@ background-repeat: no-repeat;
     }
 
 
+    section.conteudo.paralax4{
+
+        background-image: url('imagens/fire.jpg');
+        background-repeat: no-repeat;
+         background-attachment: fixed;
+         background-size: cover;
+         -webkit-background-size:cover;
+         -moz-background-size:cover;
+        
+            }
+
    
 
     section.conteudo h1{
 
         color: white;
         text-align: center;
-        font-size: 5em;
+        font-size: 4.0em;
         z-index: 50;
         text-transform: uppercase;
  }
@@ -211,7 +218,8 @@ background-repeat: no-repeat;
         background-color: black;
         color: white;
         text-align: center;
-        padding: 10px;
+        padding: 5px;
+        
         
         }
 
