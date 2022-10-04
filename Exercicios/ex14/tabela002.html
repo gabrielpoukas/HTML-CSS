@@ -18,7 +18,8 @@ table{
 
 width: 500px;
 border-collapse: collapse;
-background-color:lightyellow
+background-color:lightyellow;
+position: relative;
 
 
 }
@@ -29,6 +30,16 @@ border: 1px solid black;
 padding: 11px;
 color: black;
 
+
+}
+
+
+
+thead>tr>th{
+
+position: sticky;
+top: 0;
+background-color: lightsalmon ;
 
 }
 
@@ -55,6 +66,13 @@ caption{
     background-color: lightcyan;
 
 
+
+}
+
+tbody>tr:nth-child(2n){
+
+
+background-color: lightgray;
 
 }
 
