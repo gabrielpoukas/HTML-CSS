@@ -21,7 +21,7 @@ text-align: center;
 p{
 
 
-color: aliceblue;
+color: rgb(24, 32, 39);
 font-weight: bold;
 
 }
@@ -36,18 +36,18 @@ font-weight: bold;
     
 <h1>Formulario</h1>
 
-<form action="">
+<form action="cadastro.php" method="POST">
 
-<p>Nome: <input autocomplete="off"
-    type="text" name="nome" id="nome"> </p>
-<p>Sobrenome: <input 
-    type="text" name="sobrenome" id="sobrenome"> </p>
-<p>Cidade <input 
-    type="text" name="Cidade" id="Cidade"></p>
-<p>Estado <input 
-    type="text" name="Estado"  id="Estado"></p>
-<p>Tel <input 
-    type="number" name="tel" id="tel"></p>
+<p><label for="inome">Nome:</label> <input autocomplete="off"
+    type="text" name="nome" id="inome"> </p>
+    <p><label for="isobrenome">Sobrenome:</label><input 
+    type="text" name="sobrenome" id="isobrenome"> </p>
+<p><label for="iCidade">Cidade:</label> <input
+    type="text" name="Cidade" id="iCidade"></p>
+<p><label for="iEstado">Estado:</label> <input 
+    type="text" name="Estado"  id="iEstado"></p>
+<p><label for="itel">Tel:</label> <input 
+    type="number" name="tel" id="itel"></p>
 <p><input 
     type="submit" value="Enviar"  ></p>
 
