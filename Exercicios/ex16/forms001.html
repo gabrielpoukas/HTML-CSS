@@ -12,8 +12,9 @@
 *{
 
 font-family: Arial, Helvetica, sans-serif;
-background-image: linear-gradient(to right, rgb(156, 156, 224), rgb(253, 212, 253));
 text-align: center;
+background-image: linear-gradient(to right, rgb(156, 156, 224), rgb(253, 212, 253));
+
 
 
 }
@@ -23,6 +24,7 @@ p{
 
 color: rgb(24, 32, 39);
 font-weight: bold;
+
 
 }
 
@@ -38,30 +40,33 @@ font-weight: bold;
 
 <form action="cadastro.php" method="POST" autocomplete="on">
 
-<p><label for="inome">Nome:</label> <input 
-    type="text" name="nome" id="inome" autocomplete="name" required>  </p>
-    <p><label for="isobrenome">Sobrenome:</label><input 
-
-
-    type="text" name="sobrenome" id="isobrenome" autocomplete="cc-additional-name"> </p>
-<p><label for="iCidade">Cidade:</label> <input required
-
-
-    type="text" name="Cidade" id="iCidade" autocomplete="on"></p>
-<p><label for="iEstado">Estado:</label> <input 
-
-
-    type="text" name="Estado"  id="iEstado">
-
-
-
-</p>
-
-
-<p><label for="itel">Tel:</label> <input 
-
-
-    type="tel" name="tel" id="itel" autocomplete="tel"></p>
+<fieldset>
+    <legend>Dados Pessoais</legend>
+    <p><label for="inome">Nome:</label> <input
+        type="text" name="nome" id="inome" autocomplete="name" required>  </p>
+        <p><label for="isobrenome">Sobrenome:</label><input
+    
+    
+        type="text" name="sobrenome" id="isobrenome" autocomplete="cc-additional-name"> </p>
+    <p><label for="iCidade">Cidade:</label> <input required
+    
+    
+        type="text" name="Cidade" id="iCidade" autocomplete="on"></p>
+    <p><label for="iEstado">Estado:</label> <input
+    
+    
+        type="text" name="Estado"  id="iEstado">
+    
+    
+    
+    </p>
+    
+    
+    <p><label for="itel">Tel:</label> <input
+    
+    
+        type="tel" name="tel" id="itel" autocomplete="tel"></p>
+    </fieldset>
 
 
     <p><input 
