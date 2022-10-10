@@ -15,6 +15,11 @@ padding:  0px;
 body, html {
 
 background-color:  lightgray;
+background: url('../imagens/cropped-1440-900-587508.png');
+background-repeat: no-repeat;
+background-size: cover;
+background-position: right center;
+
 
 
 }
@@ -96,10 +101,9 @@ margin: auto;
 padding: 12px;
 border-radius:  10px;
 margin-top: 10px;
-background: url('../imagens/cropped-1440-900-587508.png');
-background-repeat: no-repeat;
-background-size: cover;
-background-position: right center;
+background-image: linear-gradient(to right, white, rgb(216, 216, 250));    
+
+
 
 
 }
@@ -107,7 +111,7 @@ background-position: right center;
 article h2 {
 
 padding-bottom: 20px;
-color: rgb(216, 179, 250);
+color: rgba(112, 29, 196, 0.541);
 text-align: center;
 border-radius:  4px solid black;
 }
@@ -117,7 +121,7 @@ article p {
 text-align: justify;
 margin-bottom:  20px;
 text-indent:  20px;
-color: white;
+color: rgb(5, 5, 5);
 font-weight: bold;
 
 }
